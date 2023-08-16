@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+    --ff-primary: 'Roboto', 'sans-serif';
+    --clr-green: #1CD1B0;
+    --clr-blue: #00669F;
+    --clr-red: #CC2424;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--ff-primary);
+}
+
+header {
+    position: relative;
+}
+
+main {
+    text-align: center;
+}
+
+.nav-bar {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 2;
+}
+
+.discount {
+    height: 38px;
+    text-transform: capitalize;
+    background-color: var(--clr-green);
+    padding: 8px 30px;
+}
+
+.nav {
+    background-color: var(--clr-blue);
+    height: 100px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    padding: 28px 30px;
+    font-size: 1.5rem;
+    box-shadow: 0px 7px 7px 0px #aeacac;
+}
+
+.cards {
+    margin: 18rem 0 8rem 0;
+}
+
+.card {
+    position: relative;
+    display: inline-block;
+    width: 400px;
+    height: 620px;
+    box-shadow: 0px 7px 7px 0px #aeacac;
+    margin: 0 4.2rem;
+}
+
+.profile-card {
+    position: relative;
+    top: -70px;
+    border-radius: 50%;
+    box-shadow: 0px 7px 7px 0px #aeacac;
+    text-align: center;
+}
+
+.fa-heart {
+    position: absolute;
+    top: 0;
+    color: var(--clr-red);
+    font-size: 2rem;
+    left: 25px;
+    top: 20px;
+}
+
+.card-info {
+    margin-top: -4rem;
+}
+
+.card-info span {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin-top: 0.5rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.card-info p {
+    padding: 1.8rem;
+    margin-top: -0.5rem;
+    font-size: 1.1rem;
+}
+
+.card-info button {
+    padding: 1rem 2rem;
+    background-color: var(--clr-blue);
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    margin: 1rem 8.5rem;
+    border: transparent;
+    text-align: center;
+    cursor: pointer;
+}
+
+.card .bg-card {
+    background-size: cover;
+    width: 100%;
+}
+
+footer {
+    height: 50px;
+    background-color: var(--clr-blue);
+    color: #fff;
+    padding: 15px 30px;
+}
